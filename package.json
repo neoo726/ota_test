@@ -1,0 +1,28 @@
+{
+  "name": "electron-ota-client",
+  "version": "0.0.1",
+  "description": "A minimal Electron application for ota test",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win --x64"
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "zpmc",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^29.1.6"
+  },
+  "dependencies": {
+    "diskusage": "^1.2.0",
+    "mqtt": "^5.5.0",
+    "os": "^0.1.2"
+  }
+}
